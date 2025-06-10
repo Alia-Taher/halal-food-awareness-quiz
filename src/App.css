@@ -1,10 +1,34 @@
 .App {
+  height: 100vh;
   text-align: center;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-size: 3rem;
+  color: #00BF52;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+  background-color: #00112C;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: larger;
+  margin: 30px;
+  
+}
+button:hover{
+  color: #00BF52;
+  box-shadow: 2px 1px 10px 5px #c0cfc5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +37,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
